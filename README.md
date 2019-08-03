@@ -32,3 +32,6 @@ Then, there are two ways to install this script.
 ## Also
 
 If you don't want to keep the Fiddler GUI open, install it as a service. [Here's](http://fiddler.wikidot.com/runasservice) how to do that.
+
+By the way: This method is of course not restricted to Fiddler. You just need to somehow block ```/ad-logic/``` and ```/ads/``` from ```spclient.wg.spotify.com```.
+There are probably many ways to do that.
