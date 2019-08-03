@@ -27,6 +27,7 @@ Then, there are two ways to install this script.
 * Clone this repository
 * Compile it
 * Maybe you need to change your Reference Path and/or the copy Path according to [this](https://docs.telerik.com/fiddler/Extend-Fiddler/CreateExtension)
+* Restart Fiddler
 
 ## Also
 
