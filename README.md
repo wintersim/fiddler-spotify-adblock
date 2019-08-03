@@ -28,6 +28,6 @@ Then, there are two ways to install this script.
 * Compile it
 * Maybe you need to change your Reference Path and/or the copy Path according to [this](https://docs.telerik.com/fiddler/Extend-Fiddler/CreateExtension)
 
-##Also
+## Also
 
 If you don't want to keep the Fiddler GUI open, install it as a service. [Here's](http://fiddler.wikidot.com/runasservice) how to do that.
