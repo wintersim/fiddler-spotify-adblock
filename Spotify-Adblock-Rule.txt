@@ -1,0 +1,11 @@
+//Add this to your Rules, according to the README
+
+//Check if a spclient packet arrives
+if (oSession.HostnameIs("spclient.wg.spotify.com"))
+{
+    //Check if it is an ad-request
+    if (oSession.uriContains("ad-logic") || oSession.uriContains("ads"))
+    {
+        oSession.oRequest.FailSession(404, "Blocked", "Fiddler blocked");
+    }
+}
