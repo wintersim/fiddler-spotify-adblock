@@ -21,7 +21,7 @@ Then, there are two ways to install this script.
 * Open Fiddler
 * Go to Rules->Costumize Rules (CTRL+R)
 * Locate the function ```static function OnBeforeRequest(oSession: Session)```
-* Paste the script at the end of this function
+* Paste the script from ```Spotify-Adblock-Rule.txt``` at the end of this function
 
 2.
 * Clone this repository
