@@ -29,6 +29,8 @@ Then, there are two ways to install this script.
 * Maybe you need to change your Reference Path and/or the copy Path according to [this](https://docs.telerik.com/fiddler/Extend-Fiddler/CreateExtension)
 * Restart Fiddler
 
+Also make sure that you enabled HTTPS-Decryption in Tools->Options->HTTPS->Decrypt HTTPS traffic, otherwise it won't work!
+
 ## Also
 
 If you don't want to keep the Fiddler GUI open, install it as a service. [Here's](http://fiddler.wikidot.com/runasservice) how to do that.
